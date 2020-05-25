@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Calibri, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .logo {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.container .logo img {
+  width: 100%;
+}
+.container .loading {
+  border: 5px solid #492764;
+  border-left-color: #fd982d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: loading 1s linear infinite;
+  margin-bottom: 30px;
+}
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
