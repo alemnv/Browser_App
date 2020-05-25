@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "lite-server .",
     "start": "electron ."
   },
   "keywords": [],
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^9.0.0",
+    "lite-server": "^2.5.4",
     "sass": "^1.26.5"
   }
 }

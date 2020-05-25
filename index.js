@@ -12,14 +12,15 @@ function createWindow() {
     height: 600,
     autoHideMenuBar: true,
     alwaysOnTop: true,
-    show: false,
+    // show: false,
     webPreferences: {
       nodeIntegration: true,
     }
   })
 
   // and load the index.html of the app.
-  win.loadFile('src/index.html')
+  // win.loadFile('src/index.html')
+  win.loadURL("http://localhost:3000/")
   win.once('ready-to-show', () => {
     win.show()
   })
