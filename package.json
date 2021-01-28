@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^9.0.0",
+    "electron": "^9.4.0",
     "lite-server": "^2.5.4",
     "sass": "^1.26.5"
   }
